@@ -23,7 +23,13 @@ git clone --recursive https://github.com/iterativv/NostalgiaForInfinity.git chec
 ```
 git submodule update --remote --checkout
 ```
+## How to run download data
+1. go to `checkout-path/user_data/data`
+2. Change `backtesting-[exchange].env` to the desired timeframe
+3. run docker-compose up
 
+## How to run backtesting locally:
+1. from the root path of NFX run `docker-compose up`
 
 ## Change strategy
 
