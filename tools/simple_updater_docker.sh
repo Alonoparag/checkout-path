@@ -8,13 +8,12 @@
 
 #!/bin/bash
 
-ROOT_PATH="Your root path f.e. (/home/user"
-NFI_PATH="${ROOT_PATH}/NFI/NostalgiaForInfinityX.py"
-FT_PATH="${ROOT_PATH}/ft_userdata/user_data/strategies/NostalgiaForInfinityX.py"
+ROOT_PATH="/home/alonp"
+NFI_PATH="${ROOT_PATH}/Documents/freqtrade/checkout-path/NostalgiaForInfinityX.py"
+FT_PATH="${ROOT_PATH}/Documents/freqtrade/ft_nostalgia/user_data/strategies/NostalgiaForInfinityX.py"
 TG_TOKEN=""
 TG_CHAT_ID=""
 GIT_URL="https://github.com/iterativv/NostalgiaForInfinity"
-
 # Go to NFI directory
 cd $(dirname ${NFI_PATH})
 

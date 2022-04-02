@@ -10,8 +10,8 @@
 ## 3. Optionally Commits the update strategy to a local repo
 ## 4. Stops, Build, and Start freqtrader via docker-compose
 
-NFI_REPO_HOME=/root/freqtrade/NostalgiaForInfinity
-FREQTRADE_HOME=/root/freqtrade/freqtrade-docker/ft_userdata
+NFI_REPO_HOME=/home/alonp/Documents/freqtrade/checkout-path
+FREQTRADE_HOME=/home/alonp/Documents/freqtrade/ft_nostalgia
 COMMIT_TO_LOCAL_REPO=true
 
 #pull latest NFIX strategy and copy to freqtrade

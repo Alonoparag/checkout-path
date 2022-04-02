@@ -86,6 +86,14 @@ class Backtest:
             f"--max-open-trades={max_open_trades}",
             f"--stake-amount={stake_amount}",
             "--config=user_data/data/pairlists.json",
+            # f"--datadir=user_data/data/{exchange}",
+            "--fee=0.1",
+            "--starting-balance=500",
+            
+            # f"--config=user_data/data/{exchange}-usdt-static.json",
+            # "--export=trades",
+            # "--export-filename=/freqtrade/user_data/logs/backtesting.log",
+            # "--breakdown=day",
         ]
         if pairlist is None:
             cmdline.append(f"--config={exchange_config}")
